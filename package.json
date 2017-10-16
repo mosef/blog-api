@@ -1,0 +1,23 @@
+{
+  "name": "blog-challenge",
+  "version": "1.0.0",
+  "description": "Thinkful blog challenge",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mosef/blog-api.git"
+  },
+  "author": "Mosef Asad",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mosef/blog-api/issues"
+  },
+  "homepage": "https://github.com/mosef/blog-api#readme",
+  "dependencies": {
+    "nodemon": "^1.12.1",
+    "uuid": "^3.1.0"
+  }
+}
