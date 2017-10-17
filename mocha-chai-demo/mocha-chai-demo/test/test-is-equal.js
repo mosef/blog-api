@@ -1,4 +1,4 @@
-const isEqual = require('../isEqual');
+const {isEqual, biggerNum} = require('../isEqual');
 
 require('chai').should();
 
@@ -26,11 +26,22 @@ describe('isEqual', function() {
             [1, true],
             [0, false]
         ];
-        // loop through inputs and check that each set returns false
+        // loop through inputs and chweck that each set returns false
         unequalInputs.forEach(function(input) {
             const answer = isEqual(input[0], input[1]);
             answer.should.be.false;
         });
     });
+    it('is equal', function (){
+        const result = isEqual(1,5)
+        result.should.be.false;
+    })
   }
 );
+
+describe('biggerNum test', function() {
+    it('5 is bigger', function () {
+        const result = biggerNum(3,5)
+        result.should.equal(5)
+    })
+})
