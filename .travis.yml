@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: Lcsm7f3wqd30JnA5A8XwrFNl6GHQGCdS2u0SYji1eDTa8zKPf6ISfUzFU4BUWGtQWDJr2avFrEYVYb8crkHEKH20NzFHxiD1TOiUCIFl6BSi2tS33M7G/9ypOlsk9jCvBGp19E7arhRyItcQp1PtqodoXfIRjm7a4KbhjbMrNXdj59k+Q9+D5Y8YJikBax2t/GmJ/FNRNHzEyyznC4veU3SQJBavNfi1c5la1kNPzAaz9HACh+63aLDUO+rcskEUBzNWE8tJjcbuaj/P9OXSX8VeXRFCFXGcC+zD9OyM5Lt8f77GpMoJM7BJ+6dP5lUaIR+QsB6XD/ELczCvq1sFAP4qbQDpuO9KvjdZVxhIecxhSyuRG3Gb9E1w1/kbqE45TxAB4N+3mYp3ysCOLzrJYNkVM7ErRO9WOGDVq14OAVwdcXgv70+T3GRssYcVfZiW/Ev3+yd844Wz6zVMZJt9JXWFlJ2M8zncTcwshKpMVSnxohXzABaV5dtpmeWfCy7FBJwh3UsczIwp9Mh/GeLgtleru9JaAmE9n4i1aOsIDktoQiO1DrGJZOX3PDvfWzPYuMSTjbx6I245qzDrXHORl4SADBp7RH1b/R53TzJB7WYmijNuAMOBhHwNvUM6+rPbqKaKBPA26JhkNsJDv4P2//UbK02HvLNCABS4CCoyH0c=
+  app: whispering-ridge-38962
+  on:
+    repo: mosef/blog-api
